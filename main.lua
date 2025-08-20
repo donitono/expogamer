@@ -6,7 +6,6 @@ local modules = {
     'enhancement',
     'fishing',
     'movement',
-    'rayfield',
     'utils',
     'weather',
 }
