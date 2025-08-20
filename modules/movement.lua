@@ -1,3 +1,15 @@
+local UIContext = require(script.Parent.ui_context)
+function Movement.init()
+    local tab = UIContext.window:CreateTab("Player")
+    local label = Instance.new("TextLabel")
+    label.Text = "Movement Features"
+    label.Size = UDim2.new(1,0,0,40)
+    label.BackgroundTransparency = 1
+    label.TextColor3 = Color3.fromRGB(255,255,255)
+    label.Font = Enum.Font.GothamBold
+    label.TextSize = 16
+    label.Parent = tab
+end
 -- movement.lua
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")

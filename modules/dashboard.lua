@@ -1,3 +1,15 @@
+local UIContext = require(script.Parent.ui_context)
+function Dashboard.init()
+    local tab = UIContext.window:CreateTab("Dashboard")
+    local label = Instance.new("TextLabel")
+    label.Text = "Welcome to Dashboard!"
+    label.Size = UDim2.new(1,0,0,40)
+    label.BackgroundTransparency = 1
+    label.TextColor3 = Color3.fromRGB(255,255,255)
+    label.Font = Enum.Font.GothamBold
+    label.TextSize = 18
+    label.Parent = tab
+end
 -- dashboard.lua
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
