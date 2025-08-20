@@ -1,0 +1,10 @@
+modules/
+*.rbxl
+*.rbxm
+*.rbxmx
+*.rbxlx
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
